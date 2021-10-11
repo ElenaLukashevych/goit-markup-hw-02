@@ -1,4 +1,4 @@
-/* Глобальные стили */
+/* Переменные */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -9,6 +9,8 @@
   --link-footer-color: rgba(255, 255, 255, 0.6);
   --background-btn-color: #f5f4fa;
 }
+
+/* Глобальные стили */
 
 body {
   font-family: Roboto, sans-serif;
@@ -39,7 +41,7 @@ body {
 /* Шапка  */
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -76,6 +78,11 @@ body {
 .contacts-link {
   color: var(--primary-text-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 
 /* Герой */
 
@@ -199,5 +206,5 @@ body {
 
 .projects-text {
   font-size: 16px;
-  line-height: 1.87x;
+  line-height: 1.87;
 }
